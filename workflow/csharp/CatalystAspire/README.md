@@ -1,6 +1,11 @@
 # CatalystAspireApp
 
-An Aspire starter application with a Dapr workflow. This solution demonstrates how to use [Dapr Workflow](https://docs.dapr.io/developing-applications/building-blocks/workflow/workflow-overview/) with  Aspire orchestration. It provides a starting point to add the [Catalyst Aspire integration](https://github.com/diagrid-labs/catalyst-aspire) to run workflows managed by Diagrid Catalyst.
+An Aspire starter application with a Dapr workflow. This solution demonstrates how to use [Dapr Workflow](https://docs.dapr.io/developing-applications/building-blocks/workflow/workflow-overview/) with  Aspire orchestration.
+
+
+There are two Aspire solutions:
+- CatalystAspireApp-Start; this solution uses Dapr locally to run the workflows.
+- CatalystAspireApp-Final; this solution uses Diagrid Catalyst to run the workflows by using the [Catalyst Aspire integration](https://github.com/diagrid-labs/catalyst-aspire).
 
 The application consists of:
 
@@ -21,7 +26,7 @@ For adding the Catalyst Aspire integration, you'll need:
 - [A Diagrid Catalyst account](https://www.diagrid.io/catalyst)
 - [Diagrid CLI](/references/catalyst/catalyst-cli-intro)
 
-## Running the application
+## Running the application in CatalystAspireApp-Start
 
 ```bash
 aspire run
@@ -32,3 +37,15 @@ aspire run
 ![Aspire Resources](img/dotnet-aspire-resources.png)
 
 ![Diagrid Dev Dashboard](img/diagrid-dev-dashboard.png)
+
+
+## Running the application in CatalystAspireApp-Start
+
+```bash
+aspire run
+```
+
+![Aspire Traces](img/dotnet-aspire-traces.png)
+
+![Aspire Resources](img/dotnet-aspire-resources.png)
+

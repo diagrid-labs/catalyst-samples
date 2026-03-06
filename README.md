@@ -2,9 +2,16 @@
 
 A collection of independent sample applications built with [Diagrid Catalyst](https://diagrid.io/catalyst) and [Dapr](https://dapr.io).
 
-## Samples
+## Dapr Agents Samples
 
 | Sample | Description |
 |--------|-------------|
-| [tiny-durable-agent](./tiny-durable-agent) | The smallest possible durable AI agent — shows how few lines of code are needed for a production-ready agent with Dapr Agents. |
-| [durable-agentic-patterns](./durable-agentic-patterns) | Four progressively autonomous patterns for building durable AI agents — from deterministic workflows to fully agent-orchestrated multi-agent systems. |
+| [tiny-durable-agent](./dapr-agents/tiny-durable-agent) | The smallest possible durable AI agent — shows how few lines of code are needed for a production-ready agent with Dapr Agents. |
+| [durable-agentic-patterns](./dapr-agents/durable-agentic-patterns) | Four progressively autonomous patterns for building durable AI agents — from deterministic workflows to fully agent-orchestrated multi-agent systems. |
+
+
+## Dapr Workflow Samples
+
+| Sample | Description |
+|--------|-------------|
+| [Catalyst Aspire](./workflow/csharp/CatalystAspireApp/) | An Aspire starter application with a Dapr workflow and activities. Configured with the Diagrid Dev Dashboard for local workflow inspection. |
