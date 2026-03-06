@@ -16,7 +16,6 @@
   <ItemGroup>
     <PackageReference Include="Aspire.Hosting.Valkey" Version="13.1.2" />
     <PackageReference Include="CommunityToolkit.Aspire.Hosting.Dapr" Version="13.0.0" />
-    <PackageReference Include="Diagrid.Aspire.Hosting.Catalyst" Version="0.0.3" />
   </ItemGroup>
 
   <ItemGroup>

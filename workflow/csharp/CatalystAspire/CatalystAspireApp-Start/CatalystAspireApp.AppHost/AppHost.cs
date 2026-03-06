@@ -1,6 +1,5 @@
 using System.Reflection;
 using CommunityToolkit.Aspire.Hosting.Dapr;
-using Diagrid.Aspire.Hosting.Catalyst;
 using Microsoft.AspNetCore.Components.Authorization;
 
 var builder = DistributedApplication.CreateBuilder(args);

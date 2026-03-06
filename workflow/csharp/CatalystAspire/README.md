@@ -22,30 +22,58 @@ For running this locally with Dapr you need:
 - [Aspire CLI](https://aspire.dev/get-started/install-cli/)
 - [Dapr](https://docs.dapr.io/getting-started/install-dapr-cli/)
 
-For adding the Catalyst Aspire integration, you'll need:
+For the Catalyst Aspire integration, you'll need:
 - [A Diagrid Catalyst account](https://www.diagrid.io/catalyst)
 - [Diagrid CLI](/references/catalyst/catalyst-cli-intro)
 
-## Running the application in CatalystAspireApp-Start
+## Run the application in CatalystAspireApp-Start
 
-```bash
-aspire run
-```
+This is the Aspire solution that uses the local Dapr Workflow engine and the Redis/Valkey state store.
 
-![Aspire Traces](img/dotnet-aspire-traces.png)
+1. Navigate to the Aspire solution in this folder: `workflow\csharp\CatalystAspire\CatalystAspireApp-Final`.
+2. Start the Aspire application:
 
-![Aspire Resources](img/dotnet-aspire-resources.png)
+    ```bash
+    aspire run
+    ```
 
-![Diagrid Dev Dashboard](img/diagrid-dev-dashboard.png)
+3. Use the POST `start` endpoint in the [CatalystAspireApp.ApiService.http](CatalystAspireApp-Start\CatalystAspireApp.ApiService\CatalystAspireApp.ApiService.http) file to start a workflow.
+
+4. Inspect the workflow traces using the Aspire Dashboard:
+
+    ![Aspire Traces](img/dotnet-aspire-traces.png)
+
+5. Navigate to the Diagrid Dev Dashboard with the Aspire Resources tab:
+
+    ![Aspire Resources](img/dotnet-aspire-resources.png)
+
+6. Inspect the workflow execution with the Diagrid Dev Dashboard:
+
+    ![Diagrid Dev Dashboard](img/diagrid-dev-dashboard.png)
 
 
-## Running the application in CatalystAspireApp-Start
+## Run the application in CatalystAspireApp-Final
 
-```bash
-aspire run
-```
+This is the Aspire solution that uses the Diagrid Catalyst managed workflow engine and Diagrid Catalyst managed state store.
 
-![Aspire Traces](img/dotnet-aspire-traces.png)
+1. Navigate to the Aspire solution in this folder: `workflow\csharp\CatalystAspire\CatalystAspireApp-Final`.
+2. Start the Aspire application:
 
-![Aspire Resources](img/dotnet-aspire-resources.png)
+    ```bash
+    aspire run
+    ```
+
+3. Use the POST `start` endpoint in the [CatalystAspireApp.ApiService.http](CatalystAspireApp-Final\CatalystAspireApp.ApiService\CatalystAspireApp.ApiService.http) file to start a workflow.
+
+4. Use the Aspire Resources tab to navigate to the Catalyst Dashboard:
+
+![Aspire Resources](img/aspire-resources-catalyst.png)
+
+5. In Catalyst, use the workflow tab to navigate to the workflow view:
+
+![Catalyst Workflows](img/catalyst-workflows.png)
+
+![Catalyst Workflow Types](img/catalyst-workflow-type.png)
+
+![Catalyst Workflow Detail](img/catalyst-workflow-detail.png)
 
