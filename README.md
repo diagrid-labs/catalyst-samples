@@ -14,4 +14,4 @@ A collection of independent sample applications built with [Diagrid Catalyst](ht
 
 | Sample | Description |
 |--------|-------------|
-| [Catalyst Aspire](./workflow/csharp/CatalystAspireApp/) | An Aspire starter application with a Dapr workflow and activities. Configured with the Diagrid Dev Dashboard for local workflow inspection. |
+| [Catalyst Aspire](./workflow/csharp/CatalystAspire/) | An Aspire starter application with a Dapr workflow and activities. Configured with the Diagrid Dev Dashboard for local workflow inspection. |
