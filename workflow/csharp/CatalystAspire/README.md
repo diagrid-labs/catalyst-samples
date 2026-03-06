@@ -57,19 +57,24 @@ This is the Aspire solution that uses the local Dapr Workflow engine and the Red
 This is the Aspire solution that uses the Diagrid Catalyst managed workflow engine and Diagrid Catalyst managed state store.
 
 1. Navigate to the Aspire solution in this folder: `workflow\csharp\CatalystAspire\CatalystAspireApp-Final`.
-2. Start the Aspire application:
+2. Login to Diagrid Catalyst:
+
+    ```bash
+    diagrid login
+    ```
+3. Start the Aspire application:
 
     ```bash
     aspire run
     ```
 
-3. Use the POST `start` endpoint in the [CatalystAspireApp.ApiService.http](CatalystAspireApp-Final\CatalystAspireApp.ApiService\CatalystAspireApp.ApiService.http) file to start a workflow.
+4. Use the POST `start` endpoint in the [CatalystAspireApp.ApiService.http](CatalystAspireApp-Final\CatalystAspireApp.ApiService\CatalystAspireApp.ApiService.http) file to start a workflow.
 
-4. Use the Aspire Resources tab to navigate to the Catalyst Dashboard:
+5. Use the Aspire Resources tab to navigate to the Catalyst Dashboard:
 
 ![Aspire Resources](img/aspire-resources-catalyst.png)
 
-5. In Catalyst, use the workflow tab to navigate to the workflow view:
+6. In Catalyst, use the workflow tab to navigate to the workflow view:
 
 ![Catalyst Workflows](img/catalyst-workflows.png)
 
