@@ -45,7 +45,15 @@ aspire run
 aspire run
 ```
 
-![Aspire Traces](img/dotnet-aspire-traces.png)
+Use the Aspire Resources tab to navigate to the Catalyst Dashboard:
 
-![Aspire Resources](img/dotnet-aspire-resources.png)
+![Aspire Resources](img/aspire-resources-catalyst.png)
+
+In Catalyst, use the workflow tab to navigate to the workflow view:
+
+![Catalyst Workflows](img/catalyst-workflows.png)
+
+![Catalyst Workflow Types](img/catalyst-workflow-type.png)
+
+![Catalyst Workflow Detail](img/catalyst-workflow-detail.png)
 
