@@ -5,6 +5,7 @@ runner = AgentRunner()
 agent = DurableAgent(name="Assistant", system_prompt="You are a helpful assistant")
 
 try:
-    runner.serve(agent, host="0.0.0.0", port=8001)
+    runner.subscribe(agent)
+    runner.serve(agent, port=8001)
 finally:
-    runner.shutdown(agent)
+    runner.shutdown()

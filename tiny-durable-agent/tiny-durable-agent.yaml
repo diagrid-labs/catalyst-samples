@@ -3,13 +3,11 @@ common:
   appLogDestination: console
   resourcesPath: ./resources
   enableAppHealthCheck: false
-  logLevel: warn
+  logLevel: info
 apps:
   - appID: durable-agent-service
     appDirPath: ./
     appPort: 8001
     appProtocol: http
     daprHTTPPort: 3500
-    metricsPort: 9090
-    enableApiLogging: true
-    command: ["python", "durable_agent_service.py"]
+    command: ["uv", "run", "durable_agent_service.py"]
