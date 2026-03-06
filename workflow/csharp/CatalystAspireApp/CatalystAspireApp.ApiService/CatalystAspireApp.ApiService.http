@@ -1,0 +1,14 @@
+@ApiService_HostAddress = http://localhost:5330
+
+GET {{ApiService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+### Start a workflow
+# @name startRequest
+POST {{ApiService_HostAddress}}/start
+
+### Get the workflow status
+@instanceId = {{startRequest.response.body.$.instanceId}}
+GET {{ApiService_HostAddress}}/status/{{instanceId}}
