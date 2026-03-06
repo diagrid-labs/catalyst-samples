@@ -10,7 +10,3 @@ spec:
       value: localhost:6379
     - name: redisPassword
       value: ""
-    - name: consumerID
-      value: "travel-planner-group"
-    - name: enableTLS
-      value: "false"
