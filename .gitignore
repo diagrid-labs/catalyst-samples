@@ -1,3 +1,5 @@
 .idea
 .venv
 .dapr
+.claude
+.DS_Store
