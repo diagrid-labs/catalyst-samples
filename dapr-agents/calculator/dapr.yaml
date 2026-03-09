@@ -1,0 +1,13 @@
+version: 1
+common:
+  appLogDestination: console
+  resourcesPath: ./resources
+  enableAppHealthCheck: false
+  logLevel: info
+apps:
+  - appID: calculator
+    appDirPath: ./
+    appPort: 8001
+    appProtocol: http
+    daprHTTPPort: 3500
+    command: ["uv", "run", "app.py"]
