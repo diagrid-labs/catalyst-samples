@@ -5,7 +5,7 @@ An Aspire starter application with a Dapr workflow. This solution demonstrates h
 
 There are two Aspire solutions:
 - CatalystAspireApp-Start; this solution uses Dapr locally to run the workflows.
-- CatalystAspireApp-Final; this solution uses Diagrid to run the workflows by using the [Diagrid Aspire integration](https://github.com/diagrid-labs/catalyst-aspire).
+- CatalystAspireApp-Final; this solution uses Diagrid to run the workflows by using the [Diagrid Aspire integration](https://github.com/diagrid-labs/diagrid-aspire).
 
 The application consists of:
 
