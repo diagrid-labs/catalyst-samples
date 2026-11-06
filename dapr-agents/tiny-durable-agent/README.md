@@ -193,13 +193,13 @@ http://localhost:9090
 
 ## Workflow Visualizer
 
-To see the agent's execution, including each step taken by the agent with inputs and outputs for every LLM and tool call, use the Workflow Visualizer in [Diagrid Catalyst](http://diagrid.io/catalyst).
+To see the agent's execution, including each step taken by the agent with inputs and outputs for every LLM and tool call, use the Workflow Visualizer in [Diagrid](http://diagrid.io/catalyst).
 
-After sign up to Catalyst, create a project:
+After sign up to Diagrid, create a project:
 ```bash
 diagrid project create tiny-durable-agent-project --deploy-managed-pubsub --deploy-managed-kv --enable-managed-workflow --use
 ```
-Stop any locally running agent instances and run the agent with full agentic backend (workflow engine, pubsub, LLM API, storage) provided by Catalyst:
+Stop any locally running agent instances and run the agent with full agentic backend (workflow engine, pubsub, LLM API, storage) provided by Diagrid:
 
 ```bash
 diagrid dev run -f tiny-durable-agent.yaml --approve

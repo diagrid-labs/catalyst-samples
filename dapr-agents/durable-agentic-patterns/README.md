@@ -13,7 +13,7 @@ Four patterns for building durable AI agents, applied to the same customer suppo
 
 ## Prerequisites
 
-1. [Diagrid CLI](https://docs.diagrid.io/catalyst/references/cli-reference/overview)
+1. [Diagrid CLI](https://docs.diagrid.io/references/diagrid/diagrid-cli-intro/)
 2. [Python 3.11+](https://www.python.org/downloads/)
 3. [uv](https://docs.astral.sh/uv/)
 4. [OpenAI API key](https://platform.openai.com/api-keys)
