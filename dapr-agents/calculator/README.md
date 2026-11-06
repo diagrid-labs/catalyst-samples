@@ -8,7 +8,7 @@ The LangGraph calculator needs explicit graph plumbing — `MessagesState`, `llm
 
 ## Prerequisites
 
-1. [Diagrid CLI](https://docs.diagrid.io/catalyst/references/cli-reference/overview)
+1. [Diagrid CLI](https://docs.diagrid.io/references/diagrid/diagrid-cli-intro/)
 2. [Python 3.11+](https://www.python.org/downloads/)
 3. [uv](https://docs.astral.sh/uv/)
 4. [OpenAI API key](https://platform.openai.com/api-keys)
@@ -53,8 +53,8 @@ curl -X POST http://localhost:8001/agent/run \
   -d '{"task": "A line passes through the points (2, 4) and (6, 20). What is the slope, and what is y when x = 10?"}'
 ```
 
-## Catalyst
+## Diagrid
 
-Log in to [Catalyst](https://catalyst.r1.diagrid.io/agents) to see the full agent — its configuration, interact with it, and see executions step-by-step including every LLM call and every tool call.
+Log in to [Diagrid](https://catalyst.r1.diagrid.io/agents) to see the full agent — its configuration, interact with it, and see executions step-by-step including every LLM call and every tool call.
 
 ![Calculator Agent](calculator-agent.png)

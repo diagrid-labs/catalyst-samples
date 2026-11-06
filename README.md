@@ -1,6 +1,6 @@
-# Catalyst Samples
+# Diagrid Samples
 
-A collection of independent sample applications built with [Diagrid Catalyst](https://diagrid.io/catalyst) and [Dapr](https://dapr.io).
+A collection of independent sample applications built with [Diagrid](https://diagrid.io/catalyst) and [Dapr](https://dapr.io).
 
 ## Dapr Agents Samples
 
@@ -15,4 +15,4 @@ A collection of independent sample applications built with [Diagrid Catalyst](ht
 
 | Sample | Description |
 |--------|-------------|
-| [Catalyst Aspire](./workflow/csharp/CatalystAspire/) | An Aspire starter application with a Dapr workflow and activities. There are two solutions; one is configured to use local Dapr and using the Diagrid Dev Dashboard for local workflow inspection, and another that is using Diagrid Catalyst for the workflow execution. |
+| [Diagrid Aspire](./workflow/csharp/CatalystAspire/) | An Aspire starter application with a Dapr workflow and activities. There are two solutions; one is configured to use local Dapr and using the Diagrid Dev Dashboard for local workflow inspection, and another that is using Diagrid for the workflow execution. |

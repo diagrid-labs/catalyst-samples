@@ -5,7 +5,7 @@ An Aspire starter application with a Dapr workflow. This solution demonstrates h
 
 There are two Aspire solutions:
 - CatalystAspireApp-Start; this solution uses Dapr locally to run the workflows.
-- CatalystAspireApp-Final; this solution uses Diagrid Catalyst to run the workflows by using the [Catalyst Aspire integration](https://github.com/diagrid-labs/catalyst-aspire).
+- CatalystAspireApp-Final; this solution uses Diagrid to run the workflows by using the [Diagrid Aspire integration](https://github.com/diagrid-labs/catalyst-aspire).
 
 The application consists of:
 
@@ -22,8 +22,8 @@ For running this locally with Dapr you need:
 - [Aspire CLI](https://aspire.dev/get-started/install-cli/)
 - [Dapr](https://docs.dapr.io/getting-started/install-dapr-cli/)
 
-For the Catalyst Aspire integration, you'll need:
-- [A Diagrid Catalyst account](https://www.diagrid.io/catalyst)
+For the Diagrid Aspire integration, you'll need:
+- [A Diagrid account](https://www.diagrid.io/catalyst)
 - [Diagrid CLI](/references/catalyst/catalyst-cli-intro)
 
 ## Run the application in CatalystAspireApp-Start
@@ -54,10 +54,10 @@ This is the Aspire solution that uses the local Dapr Workflow engine and the Red
 
 ## Run the application in CatalystAspireApp-Final
 
-This is the Aspire solution that uses the Diagrid Catalyst managed workflow engine and Diagrid Catalyst managed state store.
+This is the Aspire solution that uses the Diagrid managed workflow engine and Diagrid managed state store.
 
 1. Navigate to the Aspire solution in this folder: `workflow\csharp\CatalystAspire\CatalystAspireApp-Final`.
-2. Login to Diagrid Catalyst:
+2. Login to Diagrid:
 
     ```bash
     diagrid login
@@ -70,15 +70,15 @@ This is the Aspire solution that uses the Diagrid Catalyst managed workflow engi
 
 4. Use the POST `start` endpoint in the [CatalystAspireApp.ApiService.http](CatalystAspireApp-Final\CatalystAspireApp.ApiService\CatalystAspireApp.ApiService.http) file to start a workflow.
 
-5. Use the Aspire Resources tab to navigate to the Catalyst Dashboard:
+5. Use the Aspire Resources tab to navigate to the Diagrid Console:
 
 ![Aspire Resources](img/aspire-resources-catalyst.png)
 
-6. In Catalyst, use the workflow tab to navigate to the workflow view:
+6. In Diagrid, use the workflow tab to navigate to the workflow view:
 
-![Catalyst Workflows](img/catalyst-workflows.png)
+![Diagrid Workflows](img/catalyst-workflows.png)
 
-![Catalyst Workflow Types](img/catalyst-workflow-type.png)
+![Diagrid Workflow Types](img/catalyst-workflow-type.png)
 
-![Catalyst Workflow Detail](img/catalyst-workflow-detail.png)
+![Diagrid Workflow Detail](img/catalyst-workflow-detail.png)
 
